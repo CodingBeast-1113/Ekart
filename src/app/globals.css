@@ -64,13 +64,13 @@
 }
 
 /* sidebar */
+
 .sidebar{
     display: none;
     flex-direction: column;
-    flex-wrap: wrap;
     height: auto;
     background-color: #f6f8fa;
-    width: 25vw;
+    width: 20vw;
     box-shadow: 5px 5px 8px gray;
     border-radius: 10px;
     margin: 3px;
@@ -99,18 +99,16 @@
 .sidebar-down{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .filter-category{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .category-title{
     display: flex;
-    width: 25vw;
+    width: 20vw;
     justify-content: center;
     box-shadow: 5px 5px 8px gray;
     background-color: blueviolet;
@@ -120,7 +118,6 @@
 .category{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .category ul li button{
@@ -129,7 +126,7 @@
     font-weight: bold;
     background-color:#f6f8fa;
     margin: 4px;
-    width: 24vw;
+    width: 19vw;
     outline: none;
     border: 1px solid gray;
 }
@@ -137,12 +134,11 @@
 .price-filter{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .price-title{
     display: flex;
-    width: 25vw;
+    width: 20vw;
     justify-content: center;
     box-shadow: 5px 5px 8px gray;
     background-color: blueviolet;
@@ -152,7 +148,6 @@
 .price{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .price ul li button{
@@ -161,9 +156,27 @@
     font-weight: bold;
     background-color:#f6f8fa;
     margin: 4px;
-    width: 24vw;
+    width: 19vw;
     outline: none;
     border: 1px solid gray;
+}
+
+@media only screen and (max-width:975px){
+    .sidebar{
+        width: 45vw;
+    }
+    .category-title{
+        width: 45vw;
+    }
+    .category ul li button{
+        width: 43vw;
+    }
+    .price ul li button{
+        width: 43vw;
+    }
+    .price-title{
+        width: 45vw;
+    }
 }
 
 
