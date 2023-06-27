@@ -120,12 +120,18 @@
     flex-direction: column;
 }
 
+.category ul li{
+    list-style:none;
+}
+
 .category ul li button{
     padding: 5px;
+    
     font-size: 15px;
     font-weight: bold;
     background-color:#f6f8fa;
-    margin: 4px;
+    margin-left: -28px;
+    margin-top: 4px;
     width: 19vw;
     outline: none;
     border: 1px solid gray;
@@ -139,6 +145,7 @@
 .price-title{
     display: flex;
     width: 20vw;
+    align-items: center;
     justify-content: center;
     box-shadow: 5px 5px 8px gray;
     background-color: blueviolet;
@@ -150,12 +157,17 @@
     flex-direction: column;
 }
 
+.price ul li{
+    list-style:none;
+}
+
 .price ul li button{
     padding: 5px;
     font-size: 15px;
     font-weight: bold;
     background-color:#f6f8fa;
-    margin: 4px;
+    margin-left: -28px;
+    margin-top: 4px;
     width: 19vw;
     outline: none;
     border: 1px solid gray;
